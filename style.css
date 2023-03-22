@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+			margin: 0;
+			font-family: avenir, sans-serif;
+
+		}
+		
+		.header_image{
+			width: 100%;
+			height: auto;
+		}
+		
+		.head_img{
+			width: 100%;
+		}
+		
+		.nav{
+			height: 80px;
+			width: 100%;
+			background-color: #009fe3;
+			text-align: center;
+			
+		}
+		
+		.nav_links{
+			float: left;
+			text-decoration: none;
+			display: block;
+			padding: 20px 40px;
+			color: white;
+			font-size: 30px;
+			}
+		
+		main{
+			margin: 0 80px 80px;
+		}
+		
+		.main_left{
+			width: 20%;
+			height: auto;
+			float: left;
+			padding: 0 2.5% 0 0;
+		}
+		
+		.left_defaults{
+			border: #E30613;
+			border-width: 2px;
+			border-style: solid;
+			text-align: center;
+			margin: 30px 0 0 0;
+			padding: 10px;
+		}
+		
+		.left_title{
+			font-size: 20px;
+			
+		}
+		
+		.left_links{
+			text-decoration: none;
+			color: #000000;
+			display: block;
+			padding: 10px 0 0 0;
+
+		}
+		
+		.left_links_link{
+			text-decoration: none;
+			color: #000000;
+			display: block;
+
+		}
+		
+		.left_couriers{
+			width: 100%;
+			padding: 15px 0 0 0;
+		}
+		
+		.left_small_print{
+			font-size: 12px;
+		}
+
+		
+		.main_right{
+			width: 75%;
+			height: auto;
+			float: right;
+			padding: 0 0 0 2.5%;
+		}
+		
+		.right_defaults{
+			border: #000000;
+			border-width: 2px;
+			border-style: solid;
+			text-align: left;
+			margin: 30px 0;
+			padding: 10px;
+			padding: 20px 30px;
+		}
+		
+		.right_title{
+			font-size: 25px;
+			
+		}
+	
+		.right_description_title{
+			font-size: 20px;
+			padding: 10px 0 0;
+		}
+		
+		.right_text{
+			padding: 15px 0 0 0;
+		}
+		
+		
+		@media screen and (max-width: 1300px){
+			.main_left{
+				width: 25%;
+			}
+
+			.main_right{
+				width: 70%;
+			}
+		}
+		
+		@media screen and (max-width: 1100px){
+			.main_left{
+				width: 30%;
+			}
+
+			.main_right{
+				width: 65%;
+			}
+			
+			.nav_links{
+				padding: 20px 20px;
+			}
+
+
+		}
+		
+		@media (max-width: 700px){
+			.main_left{
+				width: 100%;
+			}
+
+			.main_right{
+				width: 100%;
+			}
+			
+		}
